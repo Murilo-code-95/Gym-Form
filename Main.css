@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-image: url('https://www.itl.cat/pngfile/big/134-1348651_treino-de-musculao-feminino.jpg');
+    background-color: #000000;
+    width: auto;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Goldman';
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+    font-family: 'Goldman';
+    font-size: 30px;
+    padding: 20px;
+}
+
+#name-label {
+    font-family: 'Goldman';
+    font-size: 20px;
+}
+
+#email-label {
+    font-family: 'Goldman';
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#number-label {
+    font-family: 'Goldman';
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+label {
+    font-family: 'Goldman';
+    padding: 2px;
+    font-size: 20px;
+}
+
+label.gym {
+    margin-top: 35px;
+}
+
+#dropdown {
+    margin-top: 10px;
+    position: relative;
+    border-radius: 10px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+input {
+    border-radius: 10px;
+    padding: 6px;
+    width: 320px;
+    border: none;
+    margin: 0;
+    margin-top: 12px;
+}
+
+input#number.form-control {
+    width: 80px;
+}
+
+select#dropdown.form-control {
+    width: 180px;
+    margin-top: 12px;
+}
+
+input.input-radio {
+    width: 35px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+input.input-checkbox {
+    width: 35px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+label#under {
+    margin-left: -4px;
+}
+
+label.under:hover {
+    text-decoration: underline;
+}
+
+textarea {
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 18px;
+    font-family: 'Goldman';
+    margin-bottom: 20px;
+    width: 75%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+button {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    font-family: 'Goldman';
+    font-size: 22px;
+    border: none;
+    width: 220px;
+    margin-top: 30px;
+    margin-left: 45%;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.form-group {
+    margin-left: 3px;
+}

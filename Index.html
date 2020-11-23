@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <title>Gym Project</title>
+    <meta charset='UTF-8' />
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title">Maromba's Gym</h1>
+            <em><u><p id="description">Cadastre-se</p></u></em>
+        </header>
+
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Nome:</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Nome" autocomplete="off"
+                    required />
+            </div>
+
+            <div class="form-group">
+                <label id="email-label" for="email">Email:</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Seu Email"
+                    autocomplete="off" required />
+
+                <div class="form-group">
+                    <label id="number-label" for="number">Idade <span class="clue">(opcional):</span></label>
+                    <input type="number" name="age" id="number" min="16" max="99" class="form-control"
+                        placeholder="Idade" autocomplete="off" />
+                </div>
+
+                <div class="form-group">
+                    <label>Ocupação:</label>
+                    <select id="dropdown" name="role" class="form-control" required>
+                        <option disabled selected value>Selecione</option>
+                        <option value="student">Estudante</option>
+                        <option value="job">Trabalho Período Integral</option>
+                        <option value="preferNo">Prefiro não dizer</option>
+                        <option value="other">Outros</option>
+                    </select>
+                </div><br>
+
+                <div class="form-group">
+                    <table>
+                        <label class="gym">Você recomendaria nossa academia pra alguém?</label><br>
+                        <br><input name="user-recommend" value="definitely" type="radio" class="input-radio" checked />
+                        <label class="under">Sim</label>
+
+                        <br><input name="user-recommend" value="not" type="radio" class="input-radio" />
+                        <label class="under">Não</label>
+
+                        <br><input name="user-recommend" value="maybe" type="radio" class="input-radio" />
+                        <label class="under">Talvez</label>
+                    </table>
+                </div><br>
+
+                <div class="form-group">
+                    <label class="gym">Que aulas gostaria de fazer?</label><br>
+
+                    <br><input name="prefer" value="chest" type="checkbox" class="input-checkbox" /><label
+                        class="under">Zumba</label>
+
+                    <br><input name="prefer" value="shoulders" type="checkbox" class="input-checkbox" /><label
+                        class="under">Musculação</label>
+
+                    <br><input name="prefer" value="back" type="checkbox" class="input-checkbox" /><label
+                        class="under">Funcional</label>
+
+                    <br><input name="prefer" value="legs" type="checkbox" class="input-checkbox" /> <label class="under"
+                        id="under">Aeróbico</label>
+
+                    <br><input name="prefer" value="arms" type="checkbox" class="input-checkbox" /><label
+                        class="under">Yoga</label>
+                </div><br>
+
+                <div class="form-group">
+                    <label>Algum comentário ou sugestão para nós?</label><br>
+                    <textarea id="comments" class="input-textarea" name="comment"
+                        placeholder="Escreva aqu iseu comentário..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" id="submit" class="submit-button">Cadastre-se Já!</button>
+                </div>
+        </form>
+    </div>
+</body>
+
+</html>
